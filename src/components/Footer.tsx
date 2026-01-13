@@ -129,10 +129,7 @@ export function Footer() {
         <div className="pt-8 border-t border-cyan-900/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-400 text-sm">
-              © {currentYear} SecOps. All rights reserved.
-            </p>
-            <p className="text-slate-400 text-sm flex items-center gap-1">
-              Built with <Heart className="w-4 h-4 text-cyan-400" /> and dedication to cybersecurity
+              © {currentYear} IT/SecOps. All rights reserved.
             </p>
           </div>
         </div>
