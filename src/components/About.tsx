@@ -1,4 +1,5 @@
-import { GraduationCap, Award, Briefcase, TrendingUp, Book, book-open-check } from 'lucide-react';
+import { BookCheck } from "lucide-react";
+import { GraduationCap, Award, Briefcase, TrendingUp, Book } from 'lucide-react';
 
 export function About() {
   const skills = {
@@ -79,7 +80,7 @@ export function About() {
             <div className="relative">
               <div className="bg-slate-800 border border-cyan-900/20 rounded-xl p-6 hover:border-cyan-400/40 transition-colors">
                 <div className="flex items-center gap-3 mb-4">
-                  <book-open-check className="w-6 h-6 text-cyan-400" />
+                  <Book className="w-6 h-6 text-cyan-400" />
                   <span className="text-cyan-400">2026 - Present</span>
                 </div>
                 <h4 className="text-white mb-2">Security Training</h4>
