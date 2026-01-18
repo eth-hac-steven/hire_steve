@@ -40,19 +40,19 @@ export function Contact() {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/yourprofile',
-      link: 'https://linkedin.com/in/yourprofile'
+      value: 'linkedin.com/in/peter-okolie-tobechukwu',
+      link: 'www.linkedin.com/in/peter-okolie-tobechukwu'
     },
     {
       icon: Github,
       label: 'GitHub',
-      value: 'github.com/yourusername',
-      link: 'https://github.com/yourusername'
+      value: 'github.com/eth-hac-steven',
+      link: 'https://github.com/eth-hac-steven'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Your City, State',
+      value: 'Asaba,Delta State',
       link: null
     }
   ];
@@ -196,7 +196,7 @@ export function Contact() {
             <div className="bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-400/40 rounded-xl p-8">
               <h3 className="text-white mb-4">Available for Opportunities</h3>
               <p className="text-slate-300 mb-6">
-                I'm actively seeking Entry-level SOC Analyst positions and open to discussing 
+                I'm actively seeking Entry-level SOC Analyst and IT positions and open to discussing 
                 cybersecurity roles that leverage my help desk experience and 
                 security operations training.
               </p>
@@ -217,7 +217,7 @@ export function Contact() {
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="www.linkedin.com/in/peter-okolie-tobechukwu"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 px-4 py-3 bg-slate-800 hover:bg-slate-700 border border-cyan-900/20 rounded-lg flex items-center justify-center gap-2 text-slate-300 hover:text-cyan-400 transition-colors"
@@ -226,7 +226,7 @@ export function Contact() {
                   LinkedIn
                 </a>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/eth-hac-steven"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 px-4 py-3 bg-slate-800 hover:bg-slate-700 border border-cyan-900/20 rounded-lg flex items-center justify-center gap-2 text-slate-300 hover:text-cyan-400 transition-colors"

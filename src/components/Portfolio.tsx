@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Download, Github, Shield, Activity, Network, Database, Terminal, Lock, HelpCircle } from 'lucide-react';
+import { Download, Github, Shield, Activity, Network, Database, Terminal, Lock, HelpCircle, Wrench } from 'lucide-react';
 
 export function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -7,10 +7,10 @@ export function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: 'Home SIEM Lab with Splunk',
+      title: 'Home SIEM Lab with Wazuh',
       category: 'cybersecurity',
       description: 'Built a comprehensive SIEM environment using Splunk to monitor and analyze security events from multiple sources including Windows Event Logs, Sysmon, and network traffic.',
-      technologies: ['Splunk', 'Windows Server', 'Sysmon', 'Kali Linux'],
+      technologies: ['Wazuh', 'Windows Server', 'Sysmon', 'Kali Linux'],
       highlights: [
         'Configured log collection from 5+ endpoints',
         'Created 15+ custom detection rules',
@@ -69,22 +69,22 @@ export function Portfolio() {
       downloadLink: '#',
       github: '#'
     },
-    {
-      id: 5,
-      title: 'Automated Threat Intelligence Platform',
-      category: 'cybersecurity',
-      description: 'Developed scripts to automatically collect, parse, and correlate threat intelligence feeds for proactive security monitoring and threat hunting.',
-      technologies: ['Python', 'APIs', 'ELK Stack', 'MISP'],
-      highlights: [
-        'Integrated 5+ threat intelligence feeds',
-        'Automated IOC extraction and enrichment',
-        'Built correlation engine for known threats',
-        'Created alerting system for critical IOCs'
-      ],
-      icon: Database,
-      downloadLink: '#',
-      github: '#'
-    },
+   // {
+     // id: 5,
+    //  title: 'Automated Threat Intelligence Platform',
+     // category: 'cybersecurity',
+    //  description: 'Developed scripts to automatically collect, parse, and correlate threat intelligence feeds for proactive security monitoring and threat hunting.',
+    //  technologies: ['Python', 'APIs', 'ELK Stack', 'MISP'],
+    //  highlights: [
+    //    'Integrated 5+ threat intelligence feeds',
+     //   'Automated IOC extraction and enrichment',
+     //   'Built correlation engine for known threats',
+     //   'Created alerting system for critical IOCs'
+    //  ],
+    //  icon: Database,
+    //  downloadLink: '#',
+    //  github: '#'
+   // },
     {
       id: 6,
       title: 'Incident Response Playbook',
@@ -149,53 +149,37 @@ export function Portfolio() {
       downloadLink: '#',
       github: '#'
     },
-    {
-      id: 10,
-      title: 'GRC compliance checklist',
-      category: 'G.R.C',
-      description: 'Developed and maintained comprehensive IT asset tracking system to manage hardware inventory, software licenses, and equipment lifecycle.',
-      technologies: ['Active Directory', 'Excel', 'PowerShell', 'SCCM'],
-      highlights: [
-        'Tracked 500+ devices across organization',
-        'Automated asset discovery and reporting',
-        'Managed software license compliance',
-        'Reduced equipment replacement costs by 20%',
-      ],
-      icon: Database,
-      downloadLink: '#',
-      github: '#'
-    },
+    //{
+      //id: 10,
+      //title: 'GRC compliance checklist',
+      //category: 'G.R.C',
+      //description: 'Developed and maintained comprehensive IT asset tracking system to manage hardware inventory, software licenses, and equipment lifecycle.',
+     // technologies: ['Active Directory', 'Excel', 'PowerShell', 'SCCM'],
+     // highlights: [
+      //  'Tracked 500+ devices across organization',
+      //  'Automated asset discovery and reporting',
+      //  'Managed software license compliance',
+       // 'Reduced equipment replacement costs by 20%',
+      //],
+     // icon: Database,
+    //  downloadLink: '#',
+    //  github: '#'
+   // },
      {
       id: 10,
       title: 'Project Autopsy',
       category: 'Helpdesk',
-      description: 'developed and maintained comprehensive IT asset tracking system to manage hardware inventory, software licenses, and equipment lifecycle.',
-      technologies: ['Active Directory', 'Excel', 'PowerShell', 'SCCM'],
+      description: 'I took apart 8 decommissioned systems and successfully built 4 fully functional units, breathing new life into old hardware. This project was all about repurposing and reusing existing resources to reduce e-waste and create something valuable.',
+      technologies: ['Hardware Troubleshooting', 'System Assembly', 'Component Testing'],
       highlights: [
-        'Tracked 500+ devices across organization',
-        'Automated asset discovery and reporting',
-        'Managed software license compliance',
-        'Reduced equipment replacement costs by 50%'
+        'Salvaged and refurbished functional components from 8 systems',
+        'Successfully built 4 fully functional systems',
+        'Reduced e-waste and promoted sustainability',
+        'Reduced equipment replacement costs by 50%',
+        'Gained hands-on experience in hardware troubleshooting and repair'
       ],
-      icon: Database,
-      downloadLink: '#',
-      github: '#'
-    },
-    {
-      id: 11,
-      title: 'Acceptable Use Policy Implementation',
-      category: 'Helpdesk',
-      description: 'developed and maintained comprehensive IT asset tracking system to manage hardware inventory, software licenses, and equipment lifecycle.',
-      technologies: ['sophos', 'lDAP', 'PowerShell',],
-      highlights: [
-        'Tracked 500+ devices across organization',
-        'Automated asset discovery and reporting',
-        'Managed software license compliance',
-        'Reduced equipment replacement costs by 50%'
-      ],
-      icon: Database,
-      downloadLink: '#',
-      github: '#'
+      icon: Wrench,
+    
     },
   ];
 

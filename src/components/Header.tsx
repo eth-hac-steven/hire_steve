@@ -30,7 +30,7 @@ export function Header({ activeSection, setActiveSection }: HeaderProps) {
           {/* Logo */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => handleNavClick('home')}>
             <Shield className="w-8 h-8 text-cyan-400" />
-            <span className="text-white">SecOps </span>
+            <span className="text-white">SecOpsCenter </span>
           </div>
 
           {/* Desktop Navigation */}

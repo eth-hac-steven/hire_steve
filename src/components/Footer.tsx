@@ -36,9 +36,9 @@ export function Footer() {
       {
         title: 'Connect',
         links: [
-          { label: 'LinkedIn', href: 'https://linkedin.com' },
-          { label: 'GitHub', href: 'https://github.com' },
-          { label: 'Email', href: 'mailto:yourname@email.com' },
+          { label: 'LinkedIn', href: 'www.linkedin.com/in/peter-okolie-tobechukwu' },
+          { label: 'GitHub', href: 'https://github.com/eth-hac-steven' },
+          { label: 'Email', href: 'mailto:stevenpeterokolie@gmail.com' },
         ]
       }
     ]
@@ -67,7 +67,7 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://linkedin.com"
+                href="www.linkedin.com/in/peter-okolie-tobechukwu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-slate-800 hover:bg-cyan-500/20 border border-cyan-900/20 hover:border-cyan-400/40 rounded-lg flex items-center justify-center transition-colors"
@@ -83,7 +83,7 @@ export function Footer() {
                 <Github className="w-5 h-5 text-slate-300 hover:text-cyan-400" />
               </a>
               <a
-                href="https://tryhackme.com/p/yourusername"
+                href="https://tryhackme.com/p/Steventobey"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-slate-800 hover:bg-cyan-500/20 border border-cyan-900/20 hover:border-cyan-400/40 rounded-lg flex items-center justify-center transition-colors"
@@ -91,7 +91,7 @@ export function Footer() {
                 <TryHackMeIcon className="w-5 h-5 text-slate-300 hover:text-cyan-400" />
               </a>
               <a
-                href="mailto:yourname@email.com"
+                href="mailto:stevenpeteokolie@gmail.com"
                 className="w-10 h-10 bg-slate-800 hover:bg-cyan-500/20 border border-cyan-900/20 hover:border-cyan-400/40 rounded-lg flex items-center justify-center transition-colors"
               >
                 <Mail className="w-5 h-5 text-slate-300 hover:text-cyan-400" />

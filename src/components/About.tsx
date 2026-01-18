@@ -1,4 +1,4 @@
-import { GraduationCap, Award, Briefcase, TrendingUp } from 'lucide-react';
+import { GraduationCap, Award, Briefcase, TrendingUp, Book, book-open-check } from 'lucide-react';
 
 export function About() {
   const skills = {
@@ -23,6 +23,7 @@ export function About() {
   };
 
   const certifications = [
+    { name: 'Cisco Introduction to Cyber Security', status: 'Completed', year: '2023' },
     { name: 'Google Cybersecurity Certificate', status: 'Completed', year: '2024' },
     { name: 'THM Advent of Cyber 2025', status: 'Completed', year: '2025' },
     { name: 'ISC2 Certified in Cyber Security', status: 'Completed', year: '2025' },
@@ -51,7 +52,7 @@ export function About() {
             <div className="relative">
               <div className="bg-slate-800 border border-cyan-900/20 rounded-xl p-6 hover:border-cyan-400/40 transition-colors">
                 <div className="flex items-center gap-3 mb-4">
-                  <Briefcase className="w-6 h-6 text-cyan-400" />
+                  <Book className="w-6 h-6 text-cyan-400" />
                   <span className="text-cyan-400">2020 - 2024</span>
                 </div>
                 <h4 className="text-white mb-2">Bsc Cyber Security</h4>
@@ -78,12 +79,12 @@ export function About() {
             <div className="relative">
               <div className="bg-slate-800 border border-cyan-900/20 rounded-xl p-6 hover:border-cyan-400/40 transition-colors">
                 <div className="flex items-center gap-3 mb-4">
-                  <GraduationCap className="w-6 h-6 text-cyan-400" />
+                  <book-open-check className="w-6 h-6 text-cyan-400" />
                   <span className="text-cyan-400">2026 - Present</span>
                 </div>
                 <h4 className="text-white mb-2">Security Training</h4>
                 <p className="text-slate-400">
-                  Pursued certifications and hands-on training in security operations, 
+                  Pursuing certifications and hands-on training in security operations, 
                   threat detection, and incident response methodologies.
                 </p>
               </div>
